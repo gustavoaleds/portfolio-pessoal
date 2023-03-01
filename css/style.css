@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+
+body{
+    background: -webkit-gradient(linear, left top, left bottom, from(#F4CEDD), to(#FFFFFF)) fixed;
+    display: flex;
+}
+
+.side{
+    width: 48%;
+    margin-top: 17%;
+}
+
+.side-logo{
+    width: 50%;
+    margin-top: 17%;
+    text-align: center;
+}
+
+h1{
+    font-size: 170px;
+    background-image: linear-gradient(to right, rgba(240, 120, 155, 1), rgba(255, 227, 206, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.name{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+p{
+    max-width: 44ch;
+    font-size: 22px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+input{
+    width: 200px;
+    height: 47px;
+    background-color: transparent;
+    margin-bottom: 25px;
+    border: 0.1;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.buttons{
+    width: 30%;
+    margin-left: 40%;
+}
+
+img{
+    width: 30px;
+    margin-left: 13px;
+}
+
+.icones{
+    display: block;
+}
+
+.top-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
