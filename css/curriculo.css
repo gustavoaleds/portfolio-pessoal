@@ -7,7 +7,7 @@
 }
 
 body{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(251, 251, 251, 1)), to(rgba(252, 231, 204, 1))) fixed;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(251, 251, 251, 1)), to(rgb(255, 255, 255))) fixed;
 }
 
 h1{
@@ -15,6 +15,7 @@ h1{
     color: black;
     font-weight: 700;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
 }
 
 header{
@@ -220,4 +221,10 @@ input{
 .timeline ul li:hover:before{
 	background-color:rgba(240, 120, 155, 1);
 	box-shadow:0px 0px 10px 2px rgba(240, 120, 155, 1);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }

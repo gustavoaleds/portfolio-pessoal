@@ -177,3 +177,8 @@ h4{
     margin-bottom: 30px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

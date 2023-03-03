@@ -53,11 +53,15 @@ input{
     height: 47px;
     background-color: transparent;
     margin-bottom: 25px;
-    border: 0.1;
+    border: solid 0.1rem ;
     text-transform: uppercase;
     border-radius: 5px;
 }
 
+input:hover{
+    background-image:linear-gradient(to right, rgba(240, 120, 155, 1), rgba(255, 227, 206, 1));
+    border: none;
+}
 .buttons{
     width: 30%;
     margin-left: 40%;
@@ -77,4 +81,10 @@ img{
     align-items: center;
     justify-content: space-between;
     width: 60%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
