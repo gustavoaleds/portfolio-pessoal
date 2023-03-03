@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+body{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(251, 251, 251, 1)), to(rgba(252, 231, 204, 1))15%) fixed;
+}
+
+h1{
+    font-size: 80px;
+    color: black;
+    font-weight: 700;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header{
+    margin-left: 30px;
+}
+
+h2{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.sides{
+    display: flex;
+    height: 70vh;
+}
+
+.icones img{
+    width: 30px;
+    margin-left: 13px;
+}
+
+.link-side input{
+    width: 378px;
+    height: 47px;
+    background-color: transparent;
+    margin-bottom: 25px;
+    border: transparent;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(92.73deg, #FCE7CC 8.76%, #F4CFDF 93.59%);
+}
+.form-side{
+    display: flex;
+    width:50%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.form-side input{
+    width: 540px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+#text-field{
+    height: 175px;
+}
+
+.link-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 100px;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid 1px;
+    width: 378px;
+}
+
+h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+span{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    
+}
+
+#button-submit{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
