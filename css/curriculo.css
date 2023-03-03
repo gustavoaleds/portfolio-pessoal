@@ -7,7 +7,7 @@
 }
 
 body{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(251, 251, 251, 1)), to(rgba(251, 251, 251, 1))) fixed;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(251, 251, 251, 1)), to(rgba(252, 231, 204, 1))) fixed;
 }
 
 h1{
