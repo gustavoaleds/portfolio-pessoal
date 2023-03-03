@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+body{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(251, 251, 251, 1)), to(rgba(255, 255, 255, 1))) fixed;
+    height: 100vh;
+}
+
+h1{
+    font-size: 80px;
+    color: black;
+    font-weight: 700;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header{
+    margin-left: 30px;
+}
+
+.projects h2{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-left: 13%;
+}
+h3{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 2%;
+
+}
+
+.dev-counter{
+    width: 288px;
+    height: 594px;
+    background-image: linear-gradient(to bottom right, rgba(244, 207, 223, 1) 40%, rgba(252, 231, 204, 1));
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sides{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.gallery{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+}
+
+.gallery-item{
+    display: flex;
+    width: 260px;
+    height: 227px;
+    background-color: rgba(244, 237, 240, 1);
+    align-items: center;
+    justify-content: center;
+}
+
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.counter-side{
+    display: flex;
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+.counters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dev-counter{
+    display: flex;
+}
+
+.counters h2{
+    font-size: 40px;
+}
+
+.title{
+    margin-bottom: 60px
+}
+
+.counter-title{
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.text-counter{
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+}
+
+.button-navigator{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+input{
+    width: 200px;
+    height: 47px;
+    background-color: transparent;
+    margin-bottom: 25px;
+    border: transparent;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(92.73deg, #FCE7CC 8.76%, #F4CFDF 93.59%);
+}
+
+h4{
+    font-size: 50px;
+}
