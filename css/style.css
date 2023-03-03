@@ -12,16 +12,7 @@ body{
     display: flex;
 }
 
-.side{
-    width: 48%;
-    margin-top: 17%;
-}
-
-.side-logo{
-    width: 50%;
-    margin-top: 17%;
-    text-align: center;
-}
+/* FONTES  */
 
 h1{
     font-size: 170px;
@@ -36,17 +27,36 @@ h2{
     font-weight: 200;
 }
 
-.name{
-    font-size: 80px;
-    font-weight: 500;
-}
-
 p{
     max-width: 44ch;
     font-size: 22px;
     text-align: justify;
     margin-bottom: 40px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.name{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+/* ÍCONES E IMAGENS */
+
+img{
+    width: 30px;
+    margin-left: 13px;
+}
+
+.icones{
+    display: block;
+}
+
+/* INPUTS */
 
 input{
     width: 200px;
@@ -62,18 +72,24 @@ input:hover{
     background-image:linear-gradient(to right, rgba(240, 120, 155, 1), rgba(255, 227, 206, 1));
     border: none;
 }
+
+
+/* AJUSTES DE POSICIONAMENTO DE DIVS */
+
+.side{
+    width: 48%;
+    margin-top: 17%;
+}
+
+.side-logo{
+    width: 50%;
+    margin-top: 17%;
+    text-align: center;
+}
+
 .buttons{
     width: 30%;
     margin-left: 40%;
-}
-
-img{
-    width: 30px;
-    margin-left: 13px;
-}
-
-.icones{
-    display: block;
 }
 
 .top-side{
@@ -81,10 +97,4 @@ img{
     align-items: center;
     justify-content: space-between;
     width: 60%;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
 }

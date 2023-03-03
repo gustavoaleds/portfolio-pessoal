@@ -10,6 +10,8 @@ body{
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(251, 251, 251, 1)), to(rgb(255, 255, 255))) fixed;
 }
 
+/* FONTES  */
+
 h1{
     font-size: 80px;
     color: black;
@@ -18,9 +20,34 @@ h1{
     text-decoration: none;
 }
 
-header{
-    margin-left: 30px;
+h2{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 50px;
 }
+
+h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+p{
+    font-weight: 400;
+    max-width: 546px;
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* ÍCONES E IMAGENS */
 
 .photo img{
     width: 257px;
@@ -36,69 +63,13 @@ header{
     margin-left: 13px;
 }
 
-p{
-    font-weight: 400;
-    max-width: 546px;
-    font-size: 15px;
-    text-align: justify;
-    margin-bottom: 40px;
-    margin-top: 50px;
-}
-
-.main-informations{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 30px;
-}
-
 .photo{
     display: flex;
     align-items: center;
 }
 
-.pessoal-informations{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: flex-start;
-}
+/* ESTILIZAÇÕES DE TÍTULOS */
 
-h2{
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 50px;
-}
-h3{
-    font-size: 22px;
-    font-weight: 400;
-}
-
-.titles{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.titles-and-icons{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.icones{
-display: flex;
-}
-
-footer{
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-}
 .skill{
     --color: rgba(240, 120, 155, 1), rgba(255, 227, 206, 1);
     --position: right bottom;
@@ -133,6 +104,54 @@ footer{
     font-weight: 600;
     text-transform: uppercase;
 }
+
+/* AJUSTES DE POSICIONAMENTO DE DIVS */
+
+header{
+    margin-left: 30px;
+}
+
+.main-informations{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.pessoal-informations{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.titles-and-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icones{
+display: flex;
+}
+
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
 .competences{
     margin-top: 20px;
     display: flex;
@@ -172,6 +191,7 @@ input{
     justify-content: flex-end;
     margin-right: 100px;
 }
+
 /* TIMELINE*/
 
 .timeline{
@@ -223,8 +243,3 @@ input{
 	box-shadow:0px 0px 10px 2px rgba(240, 120, 155, 1);
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-}

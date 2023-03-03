@@ -11,6 +11,8 @@ body{
     height: 100vh;
 }
 
+/* FONTES  */
+
 h1{
     font-size: 80px;
     color: black;
@@ -18,8 +20,27 @@ h1{
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-header{
-    margin-left: 30px;
+h3{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 2%;
+}
+
+.counters h2{
+    font-size: 40px;
+}
+
+h4{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 
 .projects h2{
@@ -29,22 +50,108 @@ header{
     margin-bottom: 50px;
     margin-left: 13%;
 }
-h3{
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 40px;
-    margin-left: 10px;
-    margin-top: 2%;
 
-}
+/* CONFIGURAÇÕES DA GALERIA DE PROJETOS */
 
-.dev-counter{
-    width: 288px;
-    height: 594px;
-    background-image: linear-gradient(to bottom right, rgba(244, 207, 223, 1) 40%, rgba(252, 231, 204, 1));
-    border-radius: 7px;
+.gallery{
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    }
+    
+    .gallery-item{
+        border-radius: 5px;
+        display: flex;
+        width: 260px;
+        height: 227px;
+        background-color: rgba(244, 237, 240, 1);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: background-image .5s ease;
+    }
+    
+    .gallery-item:hover{
+        animation-delay: 2s;
+        background-image: linear-gradient(to bottom right, rgba(244, 207, 223, 1) 40%, rgba(252, 231, 204, 1));
+    }
+    
+    .item-button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .item-button input{
+        width: 100px;
+        height: 37px;
+        border-radius: 0;
+        margin-bottom: 10px;
+        background: rgb(0, 0, 0);
+        color: #ffffff;
+    }
+    
+    .project-languages input{
+        width: 50px;
+        height: 20px;
+        margin-left: 5px;
+        background: rgb(255, 255, 255);
+    
+    }
+
+    .project-languages{
+        margin-top: 10px;
+        display: flex;
+        height: 20px;
+        width: 250px;
+    }
+    
+    .projects{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    /* DEV COUNTER*/
+ 
+    .dev-counter{
+        width: 288px;
+        height: 594px;
+        background-image: linear-gradient(to bottom right, rgba(244, 207, 223, 1) 40%, rgba(252, 231, 204, 1));
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .counter-side{
+        display: flex;
+        width: 20%;
+        margin-left: 5%;
+        margin-top: 6%;
+    }
+
+    .counter-title{
+        margin-bottom: 30px;
+        font-weight: 300;
+    }
+    
+    .text-counter{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .counters{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    /* AJUSTES DE POSICIONAMENTO DE DIVS */
+
+header{
+    margin-left: 30px;
 }
 
 .sides{
@@ -53,100 +160,8 @@ h3{
     justify-content: space-evenly;
 }
 
-.gallery{
-display: flex;
-justify-content: space-evenly;
-width: 100%;
-}
-
-.gallery-item{
-    border-radius: 5px;
-    display: flex;
-    width: 260px;
-    height: 227px;
-    background-color: rgba(244, 237, 240, 1);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: background-image .5s ease;
-}
-
-.gallery-item:hover{
-    animation-delay: 2s;
-    background-image: linear-gradient(to bottom right, rgba(244, 207, 223, 1) 40%, rgba(252, 231, 204, 1));
-}
-
-.item-button{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.item-button input{
-    width: 100px;
-    height: 37px;
-    border-radius: 0;
-    margin-bottom: 10px;
-    background: rgb(0, 0, 0);
-    color: #ffffff;
-}
-
-.project-languages input{
-    width: 50px;
-    height: 20px;
-    margin-left: 5px;
-    background: rgb(255, 255, 255);
-
-}
-
-.project-languages{
-    margin-top: 10px;
-    display: flex;
-    height: 20px;
-    width: 250px;
-}
-
-.projects{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-.counter-side{
-    display: flex;
-    width: 20%;
-    margin-left: 5%;
-    margin-top: 6%;
-}
-
-.counters{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.dev-counter{
-    display: flex;
-}
-
-.counters h2{
-    font-size: 40px;
-}
-
 .title{
     margin-bottom: 60px
-}
-
-.counter-title{
-    margin-bottom: 30px;
-    font-weight: 300;
-}
-
-.text-counter{
-    margin-top: 30px;
-    text-align: center;
 }
 
 footer{
@@ -172,13 +187,3 @@ input{
     background: linear-gradient(92.73deg, #FCE7CC 8.76%, #F4CFDF 93.59%);
 }
 
-h4{
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-}
