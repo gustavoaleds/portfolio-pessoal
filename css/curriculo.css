@@ -301,7 +301,7 @@ footer{
         }
 
         .skill, .exp, .form {
-            font-size: 60px;
+            font-size: 45px;
             --width: 100%;
         }
 
@@ -315,7 +315,7 @@ footer{
         }
 }
 
-@media (max-width:540px){
+@media (max-width:320px){
     .photo{
         margin-right: 5vw;
         margin-left: 2vw;
