@@ -231,6 +231,10 @@ input{
 
             footer{
                 position: unset;
+                display: flex;
+                width: 100vw;
+                margin-top: 2vw;
+                justify-content: center;
             }
 
             .title h3{
