@@ -57,6 +57,7 @@ a{
 
 header{
     margin-left: 30px;
+    width: 100%;
 }
 
 .sides{
@@ -118,3 +119,52 @@ hr{
     font-weight: 600;
 }
 
+@media (max-width: 768px){
+
+    .title{
+        text-align: center;
+    }
+    .title h2{
+        font-size: 40px;
+        margin-top: 2vw;
+    }
+
+    .sides{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .link-side{
+        width: 100vw;
+        margin: 0;
+    }
+
+    .form-side{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 425px){
+
+    .form-side input {
+        width: 340px;
+        height: 60px;
+        margin-bottom: 30px;
+}
+}
+@media (max-width: 320px){
+
+    .form-side input {
+        width: 240px;
+        height: 60px;
+        margin-bottom: 30px;
+}
+    .link-side h3{
+        text-align: center;
+    }
+
+    .title h2{
+        font-size: 40px;
+        margin-top: 2vw;
+    }
+}
