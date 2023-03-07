@@ -297,6 +297,7 @@ footer{
         }
         .competences div{
             margin-bottom: 5vh;
+            margin-left: 2vw;
         }
 
         .skill, .exp, .form {
