@@ -319,4 +319,8 @@ footer{
         margin-right: 5vw;
         margin-left: 2vw;
     }
+
+    p{
+        margin-right: 10%;
+    }
 }
