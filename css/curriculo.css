@@ -324,4 +324,8 @@ footer{
     p{
         margin-right: 10%;
     }
+
+    .timeline ul li span {
+        text-align: left;
+    }
 }
