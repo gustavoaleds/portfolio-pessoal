@@ -126,7 +126,7 @@ function enviarParaWhatsApp() {
 
   const texto = `Nome: ${nome}\nE-mail: ${email}\nTelefone: ${telefone}\nMensagem: ${mensagem}`;
   const textoCodificado = encodeURIComponent(texto);
-  const numeroWhatsApp = '5581982629228'; // Insira o número de telefone do WhatsApp aqui (apenas números)
+  const numeroWhatsApp = '5581998515887'; // Insira o número de telefone do WhatsApp aqui (apenas números)
   const url = `https://wa.me/${numeroWhatsApp}?text=${textoCodificado}`;
 
   window.open(url, '_blank');
