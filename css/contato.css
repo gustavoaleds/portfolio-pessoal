@@ -82,12 +82,14 @@ header{
     margin-left: 100px;
 }
 
+
+
 /* INPUTS */
 
 .form-side input{
     width: 540px;
     height: 60px;
-    margin-bottom: 30px;
+
 }
 .link-side input{
     width: 378px;
@@ -100,7 +102,7 @@ header{
     background: linear-gradient(92.73deg, #FCE7CC 8.76%, #F4CFDF 93.59%);
 }
 
-#text-field{
+#mensagem{
     height: 175px;
 }
 
@@ -117,9 +119,45 @@ hr{
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
+    margin-top: 10px;
 }
 
+form{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+/* CLASSES DE ERRO E SUCESSO*/
 
+.field i, small{
+    visibility: hidden;
+}
+.field {
+    margin-top: 10px;
+}
+
+.field.error input {
+    border: 3px solid red;
+    width: 544px;
+}
+
+.field.error i .img-error{
+visibility: visible;
+}
+
+.field.error small{
+    visibility: visible;
+}
+
+.field.sucess i .img-sucess{
+
+visibility: visible;
+}
+
+.field.sucess input {
+    border: 3px solid green;
+    width: 544px;
+}
 @media (max-width: 768px){
 
     .title{
@@ -147,12 +185,23 @@ hr{
     }
 }
 @media (max-width: 425px){
-
+    .field.sucess input {
+        border: 3px solid green;
+        width: 300px;
+    }
+    .field.error input {
+        border: 3px solid red;
+        width: 300px;
+    }
     .form-side input {
         width: 340px;
         height: 60px;
         margin-bottom: 30px;
 }
+
+    form{
+        margin-left: -250px;
+    }
 }
 @media (max-width: 320px){
 

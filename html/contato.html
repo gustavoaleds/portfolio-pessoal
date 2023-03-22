@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,63 @@
     <link rel="stylesheet" type="text/css" href="/css/contato.css">
     <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon">
     <title>Ga. | Site Pessoal</title>
-    <meta name="keywords" content="site, portfolio, curriculo, projetos, software developer, hire, Gustavo Alexandre, Ga.">
-    <meta name="description" content="Site pessoal desenvolvido para apresentar meus projetos e minhas competências como desenvolvedor de software.">
+    <meta name="keywords"
+        content="site, portfolio, curriculo, projetos, software developer, hire, Gustavo Alexandre, Ga.">
+    <meta name="description"
+        content="Site pessoal desenvolvido para apresentar meus projetos e minhas competências como desenvolvedor de software.">
 </head>
+
 <body>
     <header>
         <h1><a href="/index.html">ga.</a></h1>
     </header>
-        <div class="title">
-            <h2>Contato</h2>
+    <div class="title">
+        <h2>Contato</h2>
+    </div>
+    <div class="sides">
+        <div class="link-side">
+            <h3>Midias Sociais</h3>
+            <div class="icones">
+                <img src="/img/github.png">
+                <img src="/img/instagram.png">
+                <img src="/img/logotipo-do-linkedin.png">
+            </div>
+            <hr>
+            <input type="button" value="Linktree">
         </div>
-        <div class="sides">
-            <div class="link-side">
-                <h3>Midias Sociais</h3>
-                <div class="icones">
-                    <img src="/img/github.png">
-                    <img src="/img/instagram.png">
-                    <img src="/img/logotipo-do-linkedin.png">
+        <div class="form-side">
+            <span>Envie uma mensagem</span>
+            <form onsubmit="event.preventDefault()">
+                <div class="field">
+                    <i><img class="img-error" src="/img/error-icon.svg"></i>
+                    <i><img class="img-sucess" src="/img/success-icon.svg"></i>
+                    <small>Erro: preencha corretamente</small>
+                    <input id="nome" type="text" placeholder="Nome">
                 </div>
-                <hr>
-                <input type="button" value="Linktree">
-            </div>
-            <div class="form-side">
-                <form>
-                    <span>Envie uma mensagem</span>
-                    <div class="fields">
-                    <input type="text"  placeholder="Nome" required>
-                    <input type="email"  placeholder="E-mail" required>
-                    <input id="text-field" type="text"  placeholder="Mensagem" required>
-                    <input id="button-submit" type="submit" value="Enviar">
-                </form>          
-                    </div>
-            </div>
-        </div>  
+
+                <div class="field">
+                    <i><img class="img-error" src="/img/error-icon.svg"></i>
+                    <i><img class="img-sucess" src="/img/success-icon.svg"></i>
+                    <small>Erro: preencha corretamente</small>
+                    <input id="email" type="email" placeholder="E-mail">
+                </div>
+
+                <div class="field">
+                    <i><img class="img-error" src="/img/error-icon.svg"></i>
+                    <i><img class="img-sucess" src="/img/success-icon.svg"></i>
+                    <small>Erro: preencha corretamente</small>
+                    <input id="telefone" type="tel" placeholder="Telefone (Whatsapp)">
+                </div>
+
+                <div class="field">
+                    <input id="mensagem" type="text" placeholder="Mensagem">
+                </div>
+                <input id="button-submit" type="submit" value="Enviar" onclick={enviarFormulario()}>
+            </form>
+        </div>
+    </div>
+
+    <script src="/scripts/contato.js"></script>
 </body>
+
 </html>
